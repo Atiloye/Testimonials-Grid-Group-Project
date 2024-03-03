@@ -1,0 +1,47 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Main Container Style */
+.main-section{
+    align-items: center;
+    border: 1px solid red;
+    display: flex;
+    margin: 10rem;
+    text-align: center;
+    width: 100%;
+}
+
+/* Horizontal Section */
+.card1-and-2,.card3-and-4{
+    display: flex;
+}
+.horiz-sect{
+    height: 100%;
+    width: 80%;
+}
+.horiz-sect div{
+    border: 1px solid black;
+    
+}
+
+/* Vertical Section */
+.vert-section{
+    width: 20%;
+}
+.vert-section div{
+    border: 1px solid black;
+}
+
+/* Responsive Design */
